@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: yellow;
+
+}
+
+.container {
+  text-align: center;
+  border: 20px solid white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 90px);
+  grid-gap: 0;
+}
+
+.color-box {
+  width: 90px;
+  height: 90px;
+}
+
+#color1 {
+  background-color: deeppink;
+}
+
+#color2 {
+  background-color:  darkcyan;
+}
+
+#color3 {
+  background-color: darkblue;
+}
+
+#color4 {
+  background-color: lightblue;
+}
+
+#color5 {
+  background-color: brown;
+}
+
+#color6 {
+  background-color: yellow;
+}
+
+#color7 {
+  background-color: lightpink;
+}
+
+#color8 {
+  background-color: orange;
+}
+
+#color9 {
+  background-color:skyblue;
+}
